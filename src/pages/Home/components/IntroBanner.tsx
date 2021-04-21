@@ -45,16 +45,16 @@ const IntroBanner = () => {
           <div className="col-md-12">
             <ul className="intro-stats margin-top-45 hide-under-992px">
               <li>
-                <strong className="counter">1,586</strong>
-                <span>Jobs Posted</span>
+                <strong className="counter">30</strong>
+                <span>Trained People</span>
               </li>
               <li>
-                <strong className="counter">3,543</strong>
-                <span>Tasks Posted</span>
+                <strong className="counter">50</strong>
+                <span>Success Stories</span>
               </li>
               <li>
-                <strong className="counter">1,232</strong>
-                <span>Freelancers</span>
+                <strong className="counter">50</strong>
+                <span>Happy Clients</span>
               </li>
             </ul>
           </div>
