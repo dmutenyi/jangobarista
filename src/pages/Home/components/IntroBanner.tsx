@@ -2,7 +2,6 @@ import React from 'react'
 
 const IntroBanner = () => {
   return (
-
     <div className="intro-banner dark-overlay big-padding">
 
       <div className="transparent-header-spacer"></div>
