@@ -2,6 +2,7 @@ import React from 'react'
 
 const IntroBanner = () => {
   return (
+
     <div className="intro-banner dark-overlay big-padding">
 
       <div className="transparent-header-spacer"></div>
@@ -17,52 +18,13 @@ const IntroBanner = () => {
           </div>
         </div>
 
-        <div className="row">
-          <div className="col-md-12">
-            <div className="intro-banner-search-form margin-top-95">
 
-              <div className="intro-search-field with-autocomplete">
-                <label htmlFor="autocomplete-input" className="field-title ripple-effect">Where?</label>
-                <div className="input-with-icon">
-                  <input id="autocomplete-input" type="text" placeholder="Coffee Type" />
-                  <i className="icon-material-outline-location-on"></i>
-                </div>
-              </div>
 
-              <div className="intro-search-field">
-                <label htmlFor="intro-keywords" className="field-title ripple-effect">What do you want to know?</label>
-                <input id="intro-keywords" type="text" placeholder="Coffee or Keywords" />
-              </div>
 
-              <div className="intro-search-button">
-                <button className="button ripple-effect" >Search</button>
-              </div>
-            </div>
-          </div>
-        </div>
-
-        <div className="row">
-          <div className="col-md-12">
-            <ul className="intro-stats margin-top-45 hide-under-992px">
-              <li>
-                <strong className="counter">30</strong>
-                <span>Trained People</span>
-              </li>
-              <li>
-                <strong className="counter">50</strong>
-                <span>Success Stories</span>
-              </li>
-              <li>
-                <strong className="counter">50</strong>
-                <span>Happy Clients</span>
-              </li>
-            </ul>
-          </div>
-        </div>
 
       </div>
 
-      <div className="video-container" data-background-image="images/home-video-background-poster.jpg">
+      <div className="video-container" data-background-image="images/banner1.jpg">
         <video loop autoPlay muted>
           <source src="images/home-video-background.mp4" type="video/mp4" />
         </video>
