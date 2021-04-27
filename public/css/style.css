@@ -7806,7 +7806,7 @@ input:checked + .switch-button:before {
 
 	.intro-search-field .bootstrap-select.btn-group .dropdown-toggle .filter-option { height: auto; line-height: 20px; }
 
-	.intro-banner { padding: 70px 0; }
+	.intro-banner { padding: 70px 0; background: url('/images/banner.jpg') }
 
 	.banner-headline { max-width: 100% }
 	.banner-headline h1,
@@ -7828,14 +7828,18 @@ input:checked + .switch-button:before {
 	/* Photo Position */
 	.intro-banner:after,
 	.intro-banner:before {
-	    background: rgba(250,250,250,0.9);
+			background: url('/images/banner.jpg') no-repeat;
+			background-size: contain;
+	    /* background: rgba(250,250,250,0.9); */
 	}
 
 	.intro-banner .background-image-container {
-		background-size: cover;
 		height: 100%;
 		width: 100%;
 		left: 0;
+		background: url('/images/banner.jpg');
+		background-size: cover;
+
 	}
 	/* Photo Position - End*/
 
