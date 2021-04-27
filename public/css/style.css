@@ -283,7 +283,7 @@ img { max-width: 100%; }
 }
 
 #logo img {
-	height: 42px;
+	height: 100px;
 	width: auto;
 	top: 50%;
 	position: relative;
@@ -7451,6 +7451,7 @@ input:checked + .switch-button:before {
 .intro-banner {
 	padding: 105px 0;
 	position: relative;
+	height: 600px;
 }
 
 .intro-banner.big-padding {
@@ -7472,7 +7473,8 @@ input:checked + .switch-button:before {
     top: 0;
     left: 0;
     z-index: 15;
-    background: linear-gradient(to right,rgba(250,250,250,1) 20%, rgba(250,250,250,.95) 50% ,rgba(250,250,250,0.1) 80%,rgba(250,250,250,0) 100%);
+    background: url('/images/banner.jpg') ;
+		background-size: cover;
 }
 
 .intro-banner:after {
