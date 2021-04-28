@@ -7828,8 +7828,8 @@ input:checked + .switch-button:before {
 	/* Photo Position */
 	.intro-banner:after,
 	.intro-banner:before {
-			background: url('/images/banner.jpg') no-repeat;
-			background-size: contain;
+			background: url('/images/banner_sm.jpg') no-repeat;
+			background-size: cover;
 	    /* background: rgba(250,250,250,0.9); */
 	}
 

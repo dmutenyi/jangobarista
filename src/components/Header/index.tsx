@@ -14,7 +14,7 @@ const Header = () => {
 
             {/* <!-- Logo --> */}
             <div id="logo">
-              <a href="index.html"><img src="/logo_black.jpg" alt="" /></a>
+              <a href="index.html"><img src="/logo_black.png" alt="" /></a>
             </div>
 
             {/* <!-- Main Navigation --> */}
